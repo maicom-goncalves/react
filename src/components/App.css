@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+#banner {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  background-color: #b93232 ;
+  color: black;
+  padding: 30px 0px 30px 0px;
+
+}
+
+#logo {
+  width: 120px;
+  padding-bottom: 10px;
+}
+
+#conteudo {
+  padding: 20px 0px 180px 0px;
+  font-size: 120%;
+  /*background-color: #135f13;*/
+  border-width: medium;
+  border-style: dashed;
+  border-color: #b93232;
+  
+}
+
+#rodape {
+  padding: 20px;
+  background-color: #b93232;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120%; 
+}
+#imgRodape {
+  width: 20px;
+}
+.thumbailRestaurante {
+  width: 100%;
+}
+
+.cardRestaurante {
+  font-family: 'Anton', sans-serif;
+  background-color: #FFEFD5;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px rgb(179, 64, 10);
+  margin: 40px 40px 40px 40px;
+}
+#estrela{
+  font-size:140%;
+  color:rgb(195, 80, 34);
+  
+}
+
+.cardRestaurante:hover {
+  width: 101%;
+  font-size: 110%;
+  box-shadow: 7px 7px rgb(122, 46, 22) ;
+}
+
+.campoConsulta {
+  text-align: center;
+  font-size: 160%;
+}
+.campoConsulta::placeholder {
+  color: #a9a5a5;
+}
+
+@media only screen and (max-width: 768px) {
+  #banner {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    background-color: #b93232 ;
+    color: black;
+    padding: 20px 0px 20px 0px;
+  }
+  .cardRestaurante {
+    margin: 10px 10px 10px 10px;
+    font-size: 10px;
+  }
+}
