@@ -1,0 +1,123 @@
+.conteiner {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: space-between;
+    padding: 0px;
+    background-color:whitesmoke; 
+    border: solid black 2px;
+    font-size: 30px;
+    
+    h1{
+      text-align: center;
+    }
+    
+   
+    img{
+      width: 120px;
+      height: 127px;
+    }
+   
+    .box1{
+      background-color:aquamarine; 
+      padding: 20px;
+      
+      border: solid black 2px;
+      margin: 5px 20px;
+      .escrito{
+       input {
+      width: 100%;
+        }
+      }
+      
+    }
+    
+    .box2{
+      background-color:whitesmoke;
+      padding: 10px;
+      
+      margin: 5px 20px;
+      padding: 20px;
+      .escrito{
+        input {
+       width: 100%;
+        }
+     }
+    }
+  }
+
+  //configuração tablets
+  @media screen and (max-width: 1024px){
+
+    .conteiner {
+      margin:2px;
+      padding: 5px;
+      
+
+      h1{
+        text-align: left;
+        font-size: 37px;
+      }
+      img{
+        width: 20px;
+        height: 27px;
+      }
+      
+      .box1{
+        font-size: 20px;
+        padding: 2px;
+        margin: 2px 2px;
+        .escrito{
+         input {
+        width: 100%;
+          }
+        }
+        
+      }
+      
+      .box2{
+        font-size: 20px;
+        margin: 2px 2px;
+        padding: 2px;
+        .escrito{
+          input {
+         width: 100%;
+          }
+       }
+      }
+    }
+
+
+  }
+
+  //configuração para celulares
+  @media screen and (max-width: 400px){
+    .conteiner {
+      margin:0px;
+      padding: 0px;
+      font-size: 34px;
+      
+      .box1{
+        padding:2px;
+        margin: 0px 2px;
+        .escrito{
+         input {
+        width: 90%;
+          }
+        }
+        
+      }
+      
+      .box2{
+        padding: 0px;
+        margin: 0px 2px;
+        .escrito{
+         input {
+        width: 100%;
+          }
+        }
+        
+      }
+
+  }
+  }

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "titulo";
+    src: url(./Rowdies-Bold.ttf);
+}
+
+@font-face {
+    font-family: "principal";
+    src: url(./Sanchez-Regular.ttf);
+}
+
+@font-face {
+    font-family: "twitter";
+    src: url(./Sanchez-Italic.ttf);
+}
+
+$fonte-titulo: "titulo";
+$fonte-principal: "principal";
+$fonte-twitter: "twitter";

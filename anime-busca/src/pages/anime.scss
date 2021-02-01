@@ -1,0 +1,96 @@
+@import '../cores';
+@import '../fonts/Fontes';
+body{
+    background-image: url('../img/digimon.jpg');
+}
+
+#formNovaLista{
+    text-align: center;
+    border-radius: 15px;
+    padding:35px;
+    font-family: $fonte-principal;
+    
+    #buscador{
+        display: inline-block;
+        color:#ffffffe1;
+        background-color:$cor-fundo-item1;
+        margin: 5px;
+        padding: 5px;
+        box-shadow: 2px 3px 10px black;
+    }
+    #botao{
+        color: white;
+        background-color:$cor-fundo-item1;
+        padding: 5px;
+    }
+
+}
+#animes1{
+     
+ #listagem{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 100px;
+     .cartao{   
+        flex:1;
+        display:flex;
+        background-color: whitesmoke ;
+        border-radius: 15px;
+        border: 1px solid black;
+        box-shadow: 2px 3px 10px black;
+        padding: 15px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+        .img{
+            flex: 1;
+            margin:25px 15px 7px ;
+            padding: 12px; 
+            box-shadow: 2px 3px 7px #31a8e7 
+            2px 3px 7px #ec5a66;
+
+        }
+    
+        .carton_principal{
+            flex:2;
+            .carton_titulo{
+            text-align: center;
+            font-family: $fonte-principal;
+            color:$cor-menu;
+            font-size: 40px;
+                }
+        .carton_texto{
+            color:$cor-titulo;
+            text-align: justify;
+            font-size: 24px;
+            font-family: $fonte-lista;
+            #tipo{
+                color:whitesmoke;
+                padding: 8px;
+                background-color: $cor-font-item3;
+                box-shadow: 2px 3px 7px #31a8e7;
+            }
+            #episodios{
+                padding: 8px;
+                background-color: $cor-fundo-item2;
+                box-shadow: 2px 3px 7px #ec5a66;
+            }
+            #data{
+                padding: 8px;
+                background-color: $cor-fundo-item1;
+                box-shadow: 2px 3px 7px #f0b52d;
+            }
+            
+        }
+
+    }
+}
+
+     }
+     
+
+}
