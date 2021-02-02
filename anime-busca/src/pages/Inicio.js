@@ -27,15 +27,13 @@ export default class Inicio extends Component {
           });
     }
  
-  
     render() { 
-      
         return ( 
             <div>
              <Menu 
               logo={anime3}
               paginaAnterior="/"
-              titulo="CRUNCHYROLL"/>
+              titulo="BUSCA-ANIME"/>
 
             <div className="conteiner" onSubmit={this.consultar}>
                  <form  id="formNovaLista" >
@@ -51,8 +49,6 @@ export default class Inicio extends Component {
                     <input id="botao" type="submit" value="Buscar"  />
                   </form>    
               </div>  
-
-
            </div>
         )
     }

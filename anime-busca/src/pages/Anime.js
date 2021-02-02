@@ -57,7 +57,7 @@ export default class componentName extends Component {
                     
         return (
             <div>
-                <Menu paginaAnterior="/" titulo="ANIME-HOUSE"  logo={anime3}/>            
+                <Menu paginaAnterior="/" titulo="BUSCA-ANIME"  logo={anime3}/>            
                 
                {animeList}
 

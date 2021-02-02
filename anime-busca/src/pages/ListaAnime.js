@@ -36,7 +36,7 @@ export default class ListaAnime extends Component {
 
         return (
             <div id="animes1">
-                <Menu paginaAnterior="/" titulo="CRUNCHYROLL" logo={anterior1} />
+                <Menu paginaAnterior="/" titulo="BUSCA-ANIME" logo={anterior1} />
                 <div id="listagem">
                 {/*listagem animes*/}
                     {this.state.animes.map(anime => (

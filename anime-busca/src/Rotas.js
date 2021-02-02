@@ -15,7 +15,6 @@ const Rotas= () =>(
       <Route exact path={ROTAS.LISTAANIME} component={ListaAnime} />
     </Switch>   
    </BrowserRouter>
-
 );
 
 export default Rotas;
