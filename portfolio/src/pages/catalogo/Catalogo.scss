@@ -1,0 +1,59 @@
+@import '../../cores';
+.conteudo{
+  .conteiner {
+    display: flex; 
+    flex-direction: wrap; 
+    align-items: space-around;
+    padding: 50px;
+    border: solid black 2px;
+    font-size: 40px;
+    background-color: $cor-fundo-item2;
+    h2{
+      text-align: center;
+      display: block;
+      color:$cor-titulo;
+    }
+    .imagem{
+      border: solid black 1px;
+      box-shadow: black;
+    }
+    
+  }
+}
+
+
+  //configuração tablets
+  @media screen and (max-width: 754px){
+
+    .conteiner {
+      margin:2px;
+      padding: 5px;
+      
+
+      h1{
+        text-align: left;
+        font-size: 37px;
+      }
+      img{
+        width: 20px;
+        height: 27px;
+      }
+      
+      
+      
+    }
+
+
+  }
+
+  //configuração para celulares
+  @media screen and (max-width: 400px){
+    .conteiner {
+      margin:0px;
+      padding: 0px;
+      font-size: 34px;
+      
+      
+
+  }
+  }

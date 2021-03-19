@@ -1,0 +1,27 @@
+@import '../cores';
+
+#menu{
+    display: flex;
+    flex-direction:wrap;
+    //justify-content: space-between; 
+    background-color: $cor-menu;
+    padding: 20px;
+    #botao{
+        background-color: $cor-fundo-item1;
+        font-size: 20px;
+        padding: 14px 40px;
+        border-radius: 8px;
+        transition-duration: 0.4s;
+        margin: 15px;
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        
+    }
+    #botao:hover {
+        background-color: #dacd1d; 
+        color: #0c0c0c;
+      }
+
+}

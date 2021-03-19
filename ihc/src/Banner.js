@@ -4,7 +4,7 @@ class Banner extends Component {
         return (
             <div >
                 <img className="logo" src="imagens/logo.svg" alt="repouso-lirio da paz"/>
-                LAR E REPOSUSO-LIRIO DA PAZ
+                <h1>LAR E REPOSUSO-LIRIO DA PAZ<h1>
             </div>
         );
     }

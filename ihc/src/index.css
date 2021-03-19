@@ -37,6 +37,10 @@ body {
   font-size: 300%;
   color: white; 
 }
+#banner h1::before{
+  color: white; 
+  margin:30px;
+}
 #topo{
   width: 70px;
   height: 80px;
