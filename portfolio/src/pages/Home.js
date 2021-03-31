@@ -13,7 +13,7 @@ class Home extends PureComponent {
         return (
             <div id="home">
                 <h2>Home</h2>
-                <img src={foto}/>
+                <img id="perfil" src={foto}/>
                 <p>Maciom Gonçalves Soares Ilustrador</p>
             </div>
         )

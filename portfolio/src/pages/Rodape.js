@@ -13,7 +13,6 @@ class Rodape extends PureComponent {
         return (
             <div id="rodape">
                 <h2>rodape</h2>
-                
             </div>
         )
     }

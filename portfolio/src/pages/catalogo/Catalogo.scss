@@ -1,59 +1,27 @@
 @import '../../cores';
-.conteudo{
-  .conteiner {
-    display: flex; 
-    flex-direction: wrap; 
-    align-items: space-around;
-    padding: 50px;
-    border: solid black 2px;
-    font-size: 40px;
-    background-color: $cor-fundo-item2;
-    h2{
+
+    .conteiner {
       text-align: center;
-      display: block;
-      color:$cor-titulo;
-    }
-    .imagem{
-      border: solid black 1px;
-      box-shadow: black;
-    }
-    
-  }
-}
-
-
-  //configuração tablets
-  @media screen and (max-width: 754px){
-
-    .conteiner {
-      margin:2px;
-      padding: 5px;
-      
-
-      h1{
-        text-align: left;
-        font-size: 37px;
+      .papel{
+        
+        border: solid $cor-fundo-item2 1px;
+        width: 270px;
+        height: 400px;
+        margin: 8px 40px;
+        box-shadow: 2px 1px 5px $cor-fundo-item2,
+            -1px -1px 5px $cor-fundo-item1;
       }
-      img{
-        width: 20px;
-        height: 27px;
+      .digital{
+        
+        border: solid $cor-fundo-item2 1px;
+        width: 400px;
+        height: 270px;
+        margin: 8px 40px;
+        box-shadow: 2px 1px 5px $cor-fundo-item2,
+            -1px -1px 5px $cor-fundo-item1;
       }
       
-      
-      
     }
 
 
-  }
-
-  //configuração para celulares
-  @media screen and (max-width: 400px){
-    .conteiner {
-      margin:0px;
-      padding: 0px;
-      font-size: 34px;
-      
-      
-
-  }
-  }
+  

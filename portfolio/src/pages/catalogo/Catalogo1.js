@@ -1,7 +1,8 @@
 import React, { PureComponent } from 'react'
+import { Link } from 'react-router-dom';
 
 import './Catalogo.scss';
-
+//import Ilustracao from './Ilustracao.js';
 class Catalogo1 extends PureComponent {
     constructor(props) {
         super(props)
@@ -13,17 +14,15 @@ class Catalogo1 extends PureComponent {
 
     render() {
         return (
-            <div id="conteudo">
-                <h2>Catalogo1</h2>
-                <div className="conteiner">
-                    
-                    <div className="imagem">
-                        <img src="https://i.imgur.com/UR7GQMLm.jpg" title="source: imgur.com" />
-                    </div>
-                    <div className="imagem">
-                        <img src="https://i.imgur.com/zp6XABem.jpg" title="source: imgur.com" />
-                    </div>
-                </div>
+
+            <div className="conteiner">
+
+                <Link to="/Ilustracao" >
+                    <img className="papel" src="https://i.imgur.com/UR7GQMLm.jpg" title="luz de estrelas" />
+                </Link>
+                <img className="papel" src="https://i.imgur.com/zp6XABem.jpg" title="cabelo alternativo" />
+                <img className="papel" src="https://i.imgur.com/BSjMPvom.jpg" title="adolescente" />
+                <img className="papel" src="https://i.imgur.com/TOvZys6m.jpg" title="O mestre" />
             </div>
 
         )

@@ -1,27 +1,30 @@
 @import '../cores';
-
+@import '../fonts/fontes';
 #menu{
     display: flex;
     flex-direction:wrap;
     //justify-content: space-between; 
     background-color: $cor-menu;
-    padding: 20px;
+    padding:10px  30px;
     #botao{
         background-color: $cor-fundo-item1;
-        font-size: 20px;
-        padding: 14px 40px;
-        border-radius: 8px;
+        font-size: 30px;
+        padding: 4px 20px;
         transition-duration: 0.4s;
-        margin: 15px;
+        margin: 2px 15px;
+        border-radius: 12px;
+        border:none;
+
         a{
             text-decoration: none;
             color:white;
+            font-family: $fonte-menu;
         }
         
     }
     #botao:hover {
-        background-color: #dacd1d; 
-        color: #0c0c0c;
-      }
+        background-color: #36C9C6; 
+        a{ color: white;}
 
+     }
 }

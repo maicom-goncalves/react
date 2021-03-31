@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Catalogo1 from './catalogo/Catalogo1';
 import Catalogo2 from './catalogo/Catalogo2';
+import Ilustracao from './catalogo/Ilustracao'
 import Home from './Home';
 
 class Conteudo extends Component {
@@ -21,6 +22,10 @@ class Conteudo extends Component {
                         exact
                         path="/catalogo2"
                         component={Catalogo2} />
+                    <Route
+                        exact
+                        path="/ilustracao"
+                        component={Ilustracao} />    
                        
                 </Switch>
             </div>

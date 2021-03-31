@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "decorativa";
+    src: url(./Chango-Regular.ttf);
+}
+
+@font-face {
+    font-family: "padrao";
+    src: url(./OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "menu";
+    src: url(./OpenSans-ExtraBold.ttf);
+}
+
+$fonte-decorativa: "decorativa";
+$fonte-padrao: "padrao";
+$fonte-menu: "menu";

@@ -6,24 +6,22 @@ class Catalogo2 extends PureComponent {
         super(props)
 
         this.state = {
-            
+
         }
     }
 
     render() {
         return (
-            <div id="conteudo">
-                <h2>Catalogo2</h2>
-                <div id="conteiner">
-                <div className="imagem">
-                    <img src="https://i.imgur.com/ela92mdm.jpg" title="source: imgur.com" />
-                </div>
-                <div className="imagem">
-                    <img src="https://i.imgur.com/Rl7WVlIm.jpg" title="source: imgur.com" />
-                </div>
+
+            <div id="conteiner">
+
+                <img className="digital" src="https://i.imgur.com/ela92mdm.jpg" title="cenario deserto" />
+
+
+                <img className="digital" src="https://i.imgur.com/Rl7WVlIm.jpg" title="zootecnista-psicultura" />
+
             </div>
-            </div>
-            
+
         )
     }
 }
