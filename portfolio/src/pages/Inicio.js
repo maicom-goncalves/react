@@ -5,15 +5,19 @@ import './Inicio.scss';
 import './Conteudo'
 import Conteudo from './Conteudo';
 import Rodape from './Rodape';
+import { BrowserRouter } from 'react-router-dom';
 class Inicio extends PureComponent {
-    
+
     render() {
         return (
             <div id="inicio">
-               <Banner />
-               <Menu />
-               <Conteudo />
-               <Rodape />
+                <BrowserRouter>
+                    <Banner />
+                    <Menu />
+                    <Conteudo />
+                    <Rodape />
+                </BrowserRouter>
+
             </div>
         )
     }

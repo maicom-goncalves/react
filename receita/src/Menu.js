@@ -12,6 +12,7 @@ class Menu extends Component{
                    <li><button id="botao"> <Link to="/Receita4"><b>FUNDUE</b></Link></button></li>
                    <li><button id="botao"> <Link to="/Receita5"><b>SOPA-PARAGUAIA</b></Link></button></li>
                    <li><button id="botao"> <Link to="/Receita6"><b>PAMONHA</b></Link></button></li>
+                     <li><button id="botao"> <Link to="/Receita7"><b>PAMONHA</b></Link></button></li>
             </ul>
             </div>
         );

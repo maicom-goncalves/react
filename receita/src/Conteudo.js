@@ -11,6 +11,7 @@ import{
   import Receita4 from './Receita4';
   import Receita5 from './Receita5';
   import Receita6 from './Receita6';
+  import Receita7 from './Receita7';
 
   
 class Conteudo extends Component{
@@ -24,6 +25,7 @@ class Conteudo extends Component{
              <Route name="receta4" path="/Receita4" component={Receita4}/>
              <Route name="receta5" path="/Receita5" component={Receita5}/>
              <Route name="receta6" path="/Receita6" component={Receita6}/>
+             <Route name="receta7" path="/Receita7" component={Receita7}/>
              <Redirect from="/*" to="home"/>
          </Switch>
         );
