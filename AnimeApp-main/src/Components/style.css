@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F9F6EE;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: #033860;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    color: #FCAB10;
+}
+
+.header .search-box input {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 50%;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+}
+
+.container {
+    width: 100%;
+    margin: 1% 4%;
+    margin-top: 4%;
+}
+
+.animeInfo {
+    width: 100%;
+    height: auto;
+    background-color: #fffdf8c5;
+    left: 0;
+    top: 0;
+}
+
+.titulo {
+    color: #181817;
+    background-color: #7FC6A4;
+    padding: 1px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.anime-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: antiquewhite;
+}
+.anime-row .row {
+    gap: 3%;
+    margin-left: 2%;
+    background-color: #fff;
+    color: #41403d;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    width: 15%;
+    height: auto;
+    padding: 1px;
+    box-shadow: 5px 5px 15px #758173;
+    text-align: center;
+    margin: 3%;
+    border-radius: 5px;
+    border: #033860 1px;
+
+}
+
+.card img {
+    width: 95%;
+    height: auto;
+    cursor: pointer;
+}
+
+.anime-content {
+    padding: 1%;
+    width: 94%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas:
+        "cabecalho cabecalho"
+        "imagem info"
+        "sinopse sinopse"
+    ;
+
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    margin-bottom: 1%;
+}
+
+.imagem {
+    grid-area: imagem;
+
+}
+
+.info {
+    grid-area: info;
+
+    margin: 1px;
+    padding: 4%;
+    text-align: right;
+}
+
+.sinopse {
+    grid-area: sinopse;
+}
+
+.overlay {
+    bottom: 0;
+    /*
+    position: absolute;*/
+    padding: 1rem;
+    background-color: #FCAB10;
+    color: #41403d;
+    border-radius: 7rem 3rem 0 0;
+    text-align: justify;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.anime-inform:hover .overlay {
+    opacity: 1;
+
+    height: 18%;
+}
+
+.ant-modal-content {
+    background-color: #dad9c5;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px -4px #0332521f, 0 6px 16px 0 #20a0c714, 0 9px 28px 8px;
+    /*rgba(161, 35, 35, 0.0.5)*/
+    max-height: auto;
+    height: 80%;
+    max-width: auto;
+    width: 140%;
+    padding: 3px;
+}
+
+.ant-modal {
+    box-sizing: border-box;
+    color: #000000d9;
+    font-size: 8pt;
+    position: relative;
+    top: 1%;
+    width: auto;
+    /* max-width: calc(100vw - 32px);*/
+    padding-bottom: 3px;
+}
+
+.ant-modal-body {
+    padding: 2px;
+}
+
+.ant-modal-close {
+    color: #000000;
+    transition: color 0.4s;
+}
+
+.ant-modal-close-x {
+    font-size: 18px;
+    padding: 0;
+    margin: 2px;
+}
+
+.ant-modal-footer {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        width: 99%;
+        height: 13%;
+        justify-content:center;
+        flex-wrap: wrap;
+    }
+    .container {
+        width: 96%;
+        margin: 1% 4%;
+        margin-top: 4%;
+    }
+
+    .header .search-box input {
+        width: 100%;
+        height: 70%;
+        font-size: 1.2rem;
+        padding: 0 1rem;
+    }
+    .anime-row {
+        flex-direction: column;
+    }
+    .anime-row .row {
+        gap: 1%;
+        margin-left: 1%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 73%;
+        height: auto;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+
+    .card img {
+        width: 98%;
+
+    }
+
+    .ant-modal-content {
+        height: 95%;
+        max-width: auto;
+        width: 100%;
+    }
+
+    .anime-content {
+        padding: 1%;
+        width: 94%;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-areas:
+            "cabecalho cabecalho"
+            "imagem imagem"
+            "info info"
+            "sinopse sinopse"
+        ;
+    }
+    .imagem {
+        width: 10%;
+        height: auto;
+    }
+
+}

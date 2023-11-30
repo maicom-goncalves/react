@@ -1,0 +1,25 @@
+@import './cores.scss';
+body {
+    margin: 0px;
+    padding: 1% 10%;
+    background-image:url('./img/doodle.jpg');
+    background-repeat: repeat;
+    
+    #root{
+        box-shadow: 8px 3px 5px $cor-sombra1,
+                    -1px -2px 5px $cor-sombra2;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    inicio {
+        padding: 2px;        
+    }
+}
+@media screen and (max-width: 720px){
+    body {
+        margin: 0px;
+        padding: 1px;
+        
+    }
+}

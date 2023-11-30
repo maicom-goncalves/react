@@ -1,0 +1,32 @@
+@import '../../cores';
+
+.conteiner {
+  //text-align: center;
+  
+  width: 80%;
+  margin: 2%;
+  .projetos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:"um dois";
+    margin: 1%;
+    padding: 1%;
+    border-style: solid;
+    border-width: 5px 5px;
+    border-color: $cor-titulo;
+   
+  .um {
+      grid-area: um;
+        img{
+            width: 80%;
+            }
+      } 
+  .dois{
+    grid-area: dois;
+  }       
+    
+}
+}
+
+
+  

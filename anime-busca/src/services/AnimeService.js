@@ -6,7 +6,7 @@ export default class AnimeService {
     constructor() {
         this.anime = [];
         this.api = axios.create({
-            baseURL: 'https://api.jikan.moe/v3/search/anime?q='
+            baseURL: ':https://api.jikan.moe/v4/anime?q'
         });
     }
     
@@ -18,11 +18,12 @@ export default class AnimeService {
     recuperarAnimes(consultar) {
         consultar = consultar.toLowerCase().trim();
         const urlPesquisa =
-            `${serviceConfig.URL_API}` +
+            `${serviceConfig.URL_API}` 
+            /*+
             `key=${serviceConfig.CHAVE_API}` +
             `&q=${consultar}` +
             `&lang=${serviceConfig.LINGUA}` +
-            `&image_type=${serviceConfig.TIPO_IMAGEM}`;
+            `&image_type=${serviceConfig.TIPO_IMAGEM}` ;*/
         return axios.get(urlPesquisa);
     }
 }

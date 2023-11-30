@@ -1,0 +1,27 @@
+@import '../../cores';
+
+    .conteiner {
+      text-align: center;
+      .papel{
+        
+        border: solid $cor-fundo-item2 1px;
+        width: 270px;
+        height: 400px;
+        margin: 8px 40px;
+        box-shadow: 2px 1px 5px $cor-fundo-item2,
+            -1px -1px 5px $cor-fundo-item1;
+      }
+      .digital{
+        
+        border: solid $cor-fundo-item2 1px;
+        width: 400px;
+        height: 270px;
+        margin: 8px 40px;
+        box-shadow: 2px 1px 5px $cor-fundo-item2,
+            -1px -1px 5px $cor-fundo-item1;
+      }
+      
+    }
+
+
+  

@@ -1,0 +1,62 @@
+@import '../cores';
+@import '../fonts/fontes';
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    //margin:  6px 250px;
+    // border-radius: 40px;
+    #banner {
+        background-color: $cor-font-item3;
+
+        .paginaPrincipal {
+            img {
+                margin-top: auto;
+                width: 10%;
+                height: 10%;
+                padding: 5%;
+            }
+
+            .meunome {
+                font-size: 60px;
+                color: #F3EEC3;
+                text-align: right;
+                margin-left: 2%;
+                display: inline-block;
+                font-family: $fonte-decorativa;
+            }
+
+            .titulo {
+                color: #F3EEC3;
+                text-align: left;
+                font-style: italic;
+                font-family: $fonte-decorativa;
+            }
+        }
+    }
+
+    #all {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: $cor-fundo-item2;
+        padding-left: 10%;
+
+        #home {
+            font-family: $fonte-padrao;
+
+            #perfil {
+                width: 130px;
+                height: 120px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    #rodape {
+        padding-left: 10%;
+        color: white;
+        background-color: $cor-font-item3;
+    }
+}

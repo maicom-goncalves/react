@@ -1,0 +1,30 @@
+@import '../cores';
+@import '../fonts/fontes';
+#menu{
+    display: flex;
+    flex-direction:wrap;
+    //justify-content: space-between; 
+    background-color: $cor-menu;
+    padding:1% 3%;;
+    #botao{
+        background-color: $cor-titulo;
+        font-size:1.5em;
+        padding: 1% 1%;
+        transition-duration: 0.4s;
+        margin: 1% 1%;
+        border-radius: 12px;
+        border:none;
+
+        a{
+            text-decoration: none;
+            color:#1E212B;
+            font-family: $fonte-menu;
+        }
+        
+    }
+    #botao:hover {
+        background-color:$cor-transicao; 
+        a{ color:$cor-titulo;}
+
+     }
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "decorativa";
+    src: url(./OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "padrao";
+    src: url(./MerriweatherSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "menu";
+    src: url(./MerriweatherSans-VariableFont_wght.ttf);
+}
+
+$fonte-decorativa: "decorativa";
+$fonte-padrao: "padrao";
+$fonte-menu: "menu";

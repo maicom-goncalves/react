@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    padding: 1% 10%;
+    background-image:url('./img/doodle232.jpg');
+    background-repeat: repeat;
+}
+
+@media screen and (max-width: 1024px){
+    inicio {
+        padding: 2px; 
+        
+    }
+
+}
+@media screen and (max-width: 720px){
+    body {
+        margin: 0px;
+        padding: 1px;
+        
+    }
+}
